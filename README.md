@@ -82,6 +82,8 @@ Testing out multiple machine learning algorithms to determine which is best to u
 
 #### Easy Ensemble AdaBoost Classifier
 
+![EEC IMBA](Images/imba_ens.png)
+
 - the Easy Ensemble AdaBoost Classifier showed the high_risk precision at 9% and low_risk at 100% with the recall for high_risk at 92% and the low_risk at 94%.
 
 ## Credit Risk Analysis Summary 
