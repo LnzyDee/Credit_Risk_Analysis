@@ -6,8 +6,6 @@ Testing out multiple machine learning algorithms to determine which is best to u
 
 ## Credit Risk Analysis Results
 
-Due to an apparent issue (could not be resolved with BCS Learning Assistants, even when using different computers I had the same errors occurring) in the scikit-learn module where the Classifier doesn't work with the updated scikit-learn, I was unable to fully finish my analysis on Deliverable 3 using the ensemble learners. So these results will only be able to cover Deliverables 1 and 2, with oversampling, SMOTE, undersampling, and combination or SMOTEENN.
-
 ### Balanced Accuracy
 
 - The balanced accuracy scores for each are as follows:
@@ -35,6 +33,18 @@ Due to an apparent issue (could not be resolved with BCS Learning Assistants, ev
 ![SMOTEENN BAS](Images/bas_smoteenn.png)
 
 - combination or SMOTEENN came out to 67%
+
+#### Balanced Random Forest Classifier
+
+![BRFC BAS](Images/bas_brfc.png)
+
+- the Balanced Random Forest Classifier came out to 79%
+
+#### Easy Ensemble AdaBoost Classifier
+
+![EEC BAS](Images/bas_ens.png)
+
+- the Easy Ensemble AdaBoost Classifier came out to 93%
 
 ### Precision and Recall
 
@@ -64,9 +74,19 @@ Due to an apparent issue (could not be resolved with BCS Learning Assistants, ev
 
 - SMOTEENN showed the high_risk precision at 1% and low_risk at 100% with recall for high_risk at 76% and low_risk at 59%.
 
+#### Balanced Random Forest Classifier
+
+![BRFC IMBA](Images/imba_brfc.png)
+
+- the Balanced Random Forest Classifier showed the high_risk precision at 3% and low_risk at 100% with the recall for high_risk at 70% and the low_risk at 87%.
+
+#### Easy Ensemble AdaBoost Classifier
+
+- the Easy Ensemble AdaBoost Classifier showed the high_risk precision at 9% and low_risk at 100% with the recall for high_risk at 92% and the low_risk at 94%.
+
 ## Credit Risk Analysis Summary 
 
-From what I could get to work in my analysis, the combination learner, or SMOTEENN came out with the best results with the balanced accuracy score of 67%. I would recommend using SMOTEENN as it has the best results with the combination.
+From what I could gather in my analysis, the Easy Ensemble AdaBoost Classifier came out with the best results with the balanced accuracy score of 93%. I would recommend using Easy Ensemble AdaBoost Classifier as it has the best results and would provide the most accuracy.
 
 ## Resources
-- Software: [Python](https://www.python.org/), [Visual Studio Code](https://code.visualstudio.com/), 1.65.2, Jupyter Notebook
+- Software: [Python](https://www.python.org/), [Visual Studio Code](https://code.visualstudio.com/), 1.65.2, Jupyter Notebook, [Google Colab](https://colab.research.google.com/notebooks/welcome.ipynb)
